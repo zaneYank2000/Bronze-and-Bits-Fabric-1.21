@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "bronzeandbitsmod",
+	"version": "${version}",
+	"name": "Bronze and Bits Mod",
+	"description": "A mods which adds more work to the early game of Minecraft by introducing a new material called Bronze",
+	"authors": [
+		"Zane"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/bronzeandbitsmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.zane.bronzeandbitsmod.BronzeAndBitsMod"
+		],
+		"fabric-datagen": [
+			"net.zane.bronzeandbitsmod.BronzeAndBitsModDataGenerator"
+		],
+		"client": [
+			"net.zane.bronzeandbitsmod.BronzeAndBitsModClient"
+		]
+	},
+	"mixins": [
+		"bronzeandbitsmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
