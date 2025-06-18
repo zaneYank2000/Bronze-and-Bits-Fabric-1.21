@@ -2,6 +2,7 @@ package net.zane.bronzeandbitsmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.zane.bronzeandbitsmod.block.ModBlocks;
 import net.zane.bronzeandbitsmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +14,6 @@ public class BronzeAndBitsMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

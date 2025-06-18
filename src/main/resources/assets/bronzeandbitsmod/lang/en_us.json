@@ -1,4 +1,7 @@
 {
   "item.bronzeandbitsmod.tin_ingot": "Tin Ingot",
-  "item.bronzeandbitsmod.raw_tin": "Raw Tin"
+  "item.bronzeandbitsmod.raw_tin": "Raw Tin",
+
+  "block.bronzeandbitsmod.raw_tin_block": "Block of Raw Tin",
+  "block.bronzeandbitsmod.tin_block": "Tin Block"
 }
